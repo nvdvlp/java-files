@@ -1,0 +1,10 @@
+
+import javax.swing.JOptionPane;
+public class Main {
+    public static void main(String[] args) {
+        String nombre = JOptionPane.showInputDialog(null, "Por, favor Ingrese su nombre");
+        JOptionPane.showMessageDialog(null, "Bienvenido/a"+ nombre);
+
+	int n1 = Integer.parseInt(JOptionPane.showInputDialog("Por, favor Ingrese el primer numero"));	
+    }
+}
